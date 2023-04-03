@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./[Fonts]/Roboto/Roboto-Regular.ttf);
+}
+.contactbar{
+    background-color: #252525;
+    width: 100%;
+}
+.con{
+    width: 85%;
+    margin: auto;
+}
+.lconb{
+    padding: 5px;
+    float: left;
+    color: #ccccc1;
+    display: inline-flex;
+    width: 85%;
+    font-size: 15px;
+}
+.rconb{
+    padding-top: 2px;
+}
+#phone{
+    color: #259bae;
+    margin-right: 10px;
+}
+.info{
+    width: 100%;
+    background-color: #0e539c;
+    color: white;
+}
+.ininfo{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.linfo{
+    width: 35%;
+}
+.rinfo{
+    margin: auto;
+    display: flex;
+}
+.rinfo img{
+    margin-right: 20px;
+}
+.r1{
+    line-height: 3vh;
+    margin-right: 20px;
+}
+.nav ul{
+    width: 85%;
+    margin: auto;
+    list-style-type: none;
+    padding: 5px;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    text-align: left;
+    padding: 15px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: white;
+    background-color: #0e539c;
+}
+/* .menu{
+    display: none;
+} */
+.item {
+    height: 600px;
+}
+.owl-carousel{
+    margin-bottom: 100px;
+}
+
+.undercar{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.undercar h1{
+    font-size: 3.1vw;
+    padding: 2%;
+}
+.undercar p{
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+.undercar span{
+    color: #28c9c7;
+}
+#cashit{
+    margin-top: -30%;
+    color: white;
+}
+.mjb{
+    margin-top: 5%;
+}
+#bt1{
+    padding: 15px;
+    background-color: #0e539c;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+#bt2{
+    padding: 15px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+#b1{
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+#b2{
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 35%;
+}
+.cardlike{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.incar{
+    width: 90%;
+    margin-left: 7%;
+    display: inline-flex;  
+}
+.cont{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    line-height: 4vh;
+}
+.cont h5 b{
+    color: #0e539c;
+}
+.cont button{
+    padding: 3%;
+    color: #28c9c7;
+    border-color: #28c9c7;
+    font-weight: 900;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.card {
+  width: 30%;
+  margin-right: 3%;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+}
+.card:hover{
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+}
+.card p{
+    font-size: 14px;
+}
+.ad, .add{
+    position: relative;
+    color: white;
+    margin-bottom: 5%;
+}
+.ini{
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between
+}
+.ad .itext {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+}
+.ad img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.add img{
+    vertical-align: middle;
+}
+.ad h2{
+    float: left;
+    width: 40%;
+    text-align: center;
+    background-color: #0e539c;
+    color: white;
+    font-size: 25px;
+    padding: 1%;
+    margin-right: 2%;
+    margin-bottom: 40%;
+}
+.ini h3{
+    font-size: 35px;
+    margin-bottom: 3%;
+}
+.ini p{
+    clear: right;
+    font-size: 15px;
+    line-height: 4vh;
+}
+.barrier{
+    width: 100%;
+    height: 30vh;
+    background-color: #0e539c;
+    margin-bottom: 10%;
+}
+.add .uadd{
+    position: absolute;
+    bottom: 0%;
+    width: 30%;
+    height: 100%;
+    margin-left: 50%;
+    background-color: hsl(211, 84%, 33%);
+    opacity: 0.95;
+}
+.iadd h1{
+    margin-left: 13%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.uadd .iadd pre{
+    line-height: 3.5vh;
+}
+.iadd button{
+    margin-left: 13%;
+    border-color: none;
+    width: 40%;
+    height: 50px;
+}
+.footer{
+    padding: 2%;
+    background-color: #1a1a1a;
+    color: white;
+}
+.footer p{
+    margin-top: 5%;
+    font-size: 20px;
+}
+#m3{
+    width: 50px;
+    border: 2px solid #0e539c;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.footer{
+    padding-left: 7%;
+}
+.upfoot a{
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+.lowfoot{
+    width: 95%;
+    margin-top: 8%;
+}
+.lowfoot hr{
+    margin-bottom: 2%;
+}
+.lowfoot img{
+    margin-left: 40%;
+}
+.lowfoot p{
+    margin-top: 0%;
+    text-align: center;
+    font-size: 15px;
+}
+.lowfoot p span{
+    color: #28c9c7;
+}
+
+
+@media screen and (max-width: 900px) {
+    .lconb{
+        font-size: 10.5px;
+        width: 80%;
+    }
+    .rconb, .lconb{
+        margin-left: 30%;
+    }
+    .info{
+        background-color: white;
+        display: block;
+    }
+    .rinfo{
+        display: none;
+    }
+    .r1{
+        line-height: 3vh;
+    }
+    .nav ul {
+        width: 100%;
+        padding: 0%;
+    }
+    .nav ul li a{
+        display: none;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }
+    .item {
+        height: 250px;
+    }
+    .owl-carousel{
+        margin-bottom: 50px;
+    }
+    .ad h2{
+        font-size: 10px;
+    }
+    .ini h3{
+        font-size: 10px;
+    }
+    .ini p{
+        font-size: 5px;
+        line-height: normal;
+    }
+    .add .uadd{
+        bottom: 0%;
+        width: 90%;
+        height: 100%;
+        margin-left: 10%;
+        background-color: hsl(211, 84%, 33%);
+        opacity: 0.95;
+    }
+    .iadd h1{
+        margin-left: 13%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    .uadd .iadd pre{
+        line-height: 3.5vh;
+    }
+    .iadd button{
+        margin-left: 13%;
+        border-color: none;
+        width: 40%;
+        height: 50px;
+    }
+    .undercar{
+        width: 90%;
+    }
+    .undercar h1{
+        font-size: 20px;
+    }
+    .cont h5 b{
+        color: #0e539c;
+    }
+    #cashit{
+        margin-top: -50%;
+        color: white;
+    }
+    .mjb{
+        margin-top: 5%;
+    }
+    #bt1{
+        padding: 5px;
+        background-color: #0e539c;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 15px;
+    }
+    #bt2{
+        padding: 5px;
+        background-color: white;
+        text-transform: uppercase;
+        border-radius: 15px;
+    }
+    #b1{
+        width: 40%;
+        margin-left: 35%;
+    }
+    #b2{
+        width: 40%;
+        margin-top: 1%;
+        margin-left: 30%;
+    }
+    .incar{
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+    }
+    .card {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+    .card p{
+        font-size: 14px;
+    }
+    .footer{
+        padding-left: 10px;
+    }
+    .footer p{
+        margin-top: 20%;
+    }
+    .upfoot {
+        margin-bottom: 100px;
+    }
+    .lowfoot{
+        width: 95%;
+        margin: auto;
+    }
+    .lowfoot img{
+        margin-left: 20%;
+    }
+    .lowfoot p{
+        margin-top: 0%;
+        text-align: center;
+        font-size: 15px;
+    }
+}
